@@ -7,6 +7,8 @@ body {
 	background-color: rgba(221, 225, 233, 0.836);
 }
 
+/* HEADER */
+
 header {
 	background-color: #364552;
 	color: white;
@@ -18,6 +20,8 @@ header h3 {
 	font-size: 2rem;
 	text-align: center;
 }
+
+/* MENU */
 
 #menu a {
 	cursor: pointer;
@@ -35,8 +39,8 @@ header h3 {
 
 /* CONTENT start*/
 
-.container {
-	width: 30rem;
+#content {
+	width: 0 auto;
 	margin: 0 auto;
 }
 
@@ -51,12 +55,50 @@ header h3 {
 	margin: 1rem 0;
 	border-radius: 0.5rem;
 	padding: 0.25rem 0;
-	cursor: pointer;
+}
+
+.hero img {
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 0.5rem;
 }
 
 #content article h2,
 #content article p {
 	margin: 1rem;
+}
+
+.hero {
+	display: inline-block;
+}
+
+table {
+	margin: 10px;
+	/* width: auto; */
+	/* border-collapse: collapse; */
+}
+
+th,
+td {
+	border-radius: 5px;
+	border: solid 1px rgb(43, 137, 226);
+	padding: 5px;
+}
+
+th {
+	background-color: rgba(110, 102, 101, 0.986);
+	color: white;
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+}
+
+tr:hover {
+	background-color: #aaa;
+	/* cursor: pointer; */
 }
 
 /* CONTENT end*/
