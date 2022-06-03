@@ -79,6 +79,8 @@ header h3 {
 	/* float: left; */
 }
 
+/* portfolio table only  */
+
 #tablePortfolio table {
 	margin: 10px;
 	/* width: auto; */
@@ -107,6 +109,8 @@ header h3 {
 	/* cursor: pointer; */
 }
 
+/* Table in about me page  */
+
 #tableAboutMe table {
 	margin: 10px;
 	/* width: auto; */
@@ -119,6 +123,8 @@ header h3 {
 	border: solid 1px rgb(43, 137, 226);
 	padding: 5px;
 }
+
+/* table for skills only  */
 
 #tableSkills table {
 	margin: 10px;
@@ -141,6 +147,34 @@ header h3 {
 
 #tableSkills tr:nth-child(even) {
 	background-color: #eee;
+}
+
+.postContainer {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#blog article {
+	transition: box-shadow 0.3s ease;
+	background-color: white;
+	margin: 1rem 0;
+	border-radius: 0.5rem;
+	padding: 0.25rem 0;
+	cursor: pointer;
+}
+
+#blog img {
+	width: 10rem;
+	position: relative;
+}
+
+#blog article:hover {
+	box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+#blog article h2,
+#blog article p {
+	margin: 1rem;
 }
 
 /* CONTENT end*/

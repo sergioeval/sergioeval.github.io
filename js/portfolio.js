@@ -1,22 +1,17 @@
 "use strict";
 
-let portFolio = [
-	{
-		Name: "Mongo to Dataframe",
-		ProgrammingLanguage: "Python",
-		Description: "Transformming mongo table to dataframe",
-		Link: [
-			"Gist",
-			"https://gist.github.com/sergioeval/98d99fe1b46093e2abef8d2ae1f46c50",
-		],
-	},
-];
+const myPortfolio = async function () {
+	const res = await fetch("jsons/portfolio.json");
+	const data = await res.json();
+	return data;
+};
 
 //let table = document.querySelector("#portfolioTableBody");
 
 //console.log(table);
 
-const addRows = function (tableID, portfolio) {
+const addRows = async function (tableID) {
+	const portfolio = await myPortfolio();
 	let table = document.getElementById(tableID);
 
 	const numberOfRowsToAdd = portfolio.length;
@@ -52,4 +47,4 @@ const addRows = function (tableID, portfolio) {
 	});
 };
 
-addRows("tablePortfolio", portFolio);
+addRows("tablePortfolio");

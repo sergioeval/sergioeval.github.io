@@ -1,0 +1,20 @@
+[
+	{
+		"Name": "Mongo to Dataframe",
+		"ProgrammingLanguage": "Python",
+		"Description": "Transformming mongo table to dataframe",
+		"Link": [
+			"Gist",
+			"https://gist.github.com/sergioeval/98d99fe1b46093e2abef8d2ae1f46c50"
+		]
+	},
+	{
+		"Name": "Merge PDF files",
+		"ProgrammingLanguage": "Python",
+		"Description": "Merge pdf scanned files using python",
+		"Link": [
+			"Gist",
+			"https://gist.github.com/sergioeval/8f61ead64d435525eacc42ffd11c8382"
+		]
+	}
+]

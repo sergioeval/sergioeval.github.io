@@ -1,0 +1,42 @@
+[
+	{
+		"Skill": "Python",
+		"Level": "5"
+	},
+	{
+		"Skill": "Java Script",
+		"Level": "4"
+	},
+	{
+		"Skill": "IBM RPA",
+		"Level": "5"
+	},
+	{
+		"Skill": "IBM Data Stage",
+		"Level": "4"
+	},
+	{
+		"Skill": "IBM Cloud Pak for Data",
+		"Level": "4"
+	},
+	{
+		"Skill": "Agile Methodology",
+		"Level": "4"
+	},
+	{
+		"Skill": "Java",
+		"Level": "3"
+	},
+	{
+		"Skill": "NodeJs",
+		"Level": "3"
+	},
+	{
+		"Skill": "React",
+		"Level": "3"
+	},
+	{
+		"Skill": "Python Flask",
+		"Level": "4"
+	}
+]
