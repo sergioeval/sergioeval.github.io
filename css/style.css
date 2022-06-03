@@ -15,6 +15,10 @@ header {
 	padding: 1rem 0.5rem;
 }
 
+h1 {
+	font-size: 2rem;
+}
+
 header h1,
 header h3 {
 	font-size: 2rem;
@@ -71,34 +75,72 @@ header h3 {
 
 .hero {
 	display: inline-block;
+	/* height: ; */
+	/* float: left; */
 }
 
-table {
+#tablePortfolio table {
 	margin: 10px;
 	/* width: auto; */
 	/* border-collapse: collapse; */
 }
 
-th,
-td {
+#tablePortfolio th,
+#tablePortfolio td {
 	border-radius: 5px;
 	border: solid 1px rgb(43, 137, 226);
 	padding: 5px;
 }
 
-th {
+#tablePortfolio th {
 	background-color: rgba(110, 102, 101, 0.986);
 	color: white;
 	text-align: left;
 }
 
-tr:nth-child(even) {
+#tablePortfolio tr:nth-child(even) {
 	background-color: #eee;
 }
 
-tr:hover {
-	background-color: #aaa;
+#tablePortfolio tr:hover {
+	/* background-color: #aaa; */
 	/* cursor: pointer; */
+}
+
+#tableAboutMe table {
+	margin: 10px;
+	/* width: auto; */
+	/* border-collapse: collapse; */
+}
+
+#tableAboutMe th,
+#tableAboutMe td {
+	border-radius: 5px;
+	border: solid 1px rgb(43, 137, 226);
+	padding: 5px;
+}
+
+#tableSkills table {
+	margin: 10px;
+	/* width: auto; */
+	/* border-collapse: collapse; */
+}
+
+#tableSkills th,
+#tableSkills td {
+	border-radius: 5px;
+	border: solid 1px rgb(43, 137, 226);
+	padding: 5px;
+}
+
+#tableSkills th {
+	background-color: rgba(110, 102, 101, 0.986);
+	color: white;
+	text-align: left;
+}
+
+#tableSkills tr:nth-child(even) {
+	background-color: #eee;
 }
 
 /* CONTENT end*/
@@ -108,6 +150,7 @@ footer {
 	background-color: black;
 	padding: 30px;
 	color: #fff;
+	/* float: left; */
 }
 
 footer section {
