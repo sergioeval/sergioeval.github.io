@@ -51,15 +51,19 @@ header h3 {
 /* --------------- HOME CONTENT---------------- */
 
 .HomeContentDiv {
-	box-shadow: 3px 5px 5px gray;
+	/* box-shadow: 3px 5px 5px gray; */
+	width: 70%;
+	margin: 0 auto;
 	/* margin: 5rem; */
 }
 
 .HomeContentDiv section {
+	box-shadow: 5px 5px 5px gray;
 	background-color: white;
-	margin: 3rem;
+	margin: 1rem;
 	border-radius: 0.5rem;
 	padding: 0.25rem 0;
+	left: 30%;
 }
 
 .HomeContentDiv section h1 {
@@ -95,9 +99,12 @@ header h3 {
 #aboutMeContent {
 	box-shadow: 3px 5px 5px gray;
 	background-color: white;
-	margin: 1rem 0;
+	/* margin: 1rem; */
+	/* border: 3px; */
 	border-radius: 0.5rem;
-	padding: 0.25rem 0;
+	/* padding: 0.25rem 0; */
+	width: 95%;
+	margin: 1rem auto;
 }
 
 #aboutMeContent .column {
@@ -185,10 +192,12 @@ header h3 {
 #githubContent {
 	box-shadow: 3px 5px 5px gray;
 	background-color: white;
-	margin: 10px;
+	/* margin: 10px; */
 	border-radius: 0.5rem;
 	padding: 0.25rem 0;
-	width: auto;
+	/* width: auto; */
+	width: 95%;
+	margin: 1rem auto;
 	/* display: inline-block; */
 }
 
@@ -196,7 +205,7 @@ header h3 {
 	box-shadow: 3px 5px 5px gray;
 	border-radius: 5px;
 	width: auto;
-	margin: 10px;
+	margin: 1rem auto;
 }
 
 #githubContent table th,
