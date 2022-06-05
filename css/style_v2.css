@@ -10,8 +10,8 @@ body {
 /* ----------------------MAIN CONTAINER ------------------------------*/
 
 .mainContainer {
-	display: block;
-	margin: 10px;
+	/* display: block; */
+	margin: auto;
 }
 /* ----------------------MAIN CONTAINER ------------------------------*/
 
@@ -21,6 +21,7 @@ header {
 	background-color: #364552;
 	color: white;
 	padding: 1rem 0.5rem;
+	margin: 0;
 }
 
 header h1,
@@ -71,12 +72,14 @@ header h3 {
 }
 
 .HomeContentDiv .row {
-	display: flex;
-	margin-left: -5px;
-	margin-right: -5px;
+	/* display: flex; */
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
 .HomeContentDiv img {
+	box-shadow: 3px 5px 5px gray;
 	height: 200px;
 	margin-left: 20px;
 	margin-top: 20px;
@@ -103,8 +106,10 @@ header h3 {
 
 #aboutMeContent .row {
 	display: flex;
+	/* display: inline-block; */
 	margin-left: -5px;
 	margin-right: -5px;
+	width: auto;
 }
 
 #aboutMeContent #tableSkills {
@@ -180,6 +185,7 @@ header h3 {
 	margin: 1rem 0;
 	border-radius: 0.5rem;
 	padding: 0.25rem 0;
+	/* display: inline-block; */
 }
 
 #githubContent table {
