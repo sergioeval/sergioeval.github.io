@@ -146,6 +146,7 @@ header h3 {
 	text-align: center;
 	text-decoration: bold;
 	font-size: 2rem;
+	width: auto;
 }
 
 #aboutMeContent .aboutMeTable {
@@ -182,9 +183,10 @@ header h3 {
 #githubContent {
 	box-shadow: 3px 5px 5px gray;
 	background-color: white;
-	margin: 1rem 0;
+	margin: 10px;
 	border-radius: 0.5rem;
 	padding: 0.25rem 0;
+	width: auto;
 	/* display: inline-block; */
 }
 
