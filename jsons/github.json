@@ -11,7 +11,7 @@
 	{
 		"Name": "Merge PDF files",
 		"ProgrammingLanguage": "Python",
-		"Description": "Merge pdf scanned files using python",
+		"Description": "Merge pdf scanned files using python. This is incase can only scann one side of the document at once faster",
 		"Link": [
 			"Gist",
 			"https://gist.github.com/sergioeval/8f61ead64d435525eacc42ffd11c8382"

@@ -7,6 +7,13 @@ body {
 	background-color: rgba(221, 225, 233, 0.836);
 }
 
+/* MAIN CONTAINER */
+
+.mainContainer {
+	display: block;
+	margin: 10px;
+}
+
 /* HEADER */
 
 header {
@@ -30,7 +37,7 @@ header h3 {
 #menu a {
 	cursor: pointer;
 	color: white;
-	border: 1px solid black;
+	border: 4px solid black;
 	border-radius: 0.3rem;
 	background-color: black;
 	text-decoration: none;
@@ -42,24 +49,6 @@ header h3 {
 }
 
 /* CONTENT start*/
-
-#content {
-	width: 0 auto;
-	margin: 0 auto;
-}
-
-/* #content {
-	border: 1px solid black;
-	padding: auto;
-} */
-
-#content section {
-	transition: box-shadow 0.3s ease;
-	background-color: white;
-	margin: 1rem 0;
-	border-radius: 0.5rem;
-	padding: 0.25rem 0;
-}
 
 .hero img {
 	height: 200px;
@@ -104,15 +93,25 @@ header h3 {
 	background-color: #eee;
 }
 
-#tablePortfolio tr:hover {
-	/* background-color: #aaa; */
-	/* cursor: pointer; */
+/* Table in about me page  */
+
+.aboutMeTable table {
+	margin: 10px;
+	display: inline;
+	/* width: auto; */
+	/* border-collapse: collapse; */
 }
 
-/* Table in about me page  */
+.aboutMeTable th,
+.aboutMeTable td {
+	border-radius: 5px;
+	border: solid 1px rgb(43, 137, 226);
+	padding: 5px;
+}
 
 #tableAboutMe table {
 	margin: 10px;
+	display: inline;
 	/* width: auto; */
 	/* border-collapse: collapse; */
 }
@@ -125,6 +124,18 @@ header h3 {
 }
 
 /* table for skills only  */
+
+.column {
+	float: left;
+	width: auto;
+	padding: 5px;
+}
+
+.row {
+	display: flex;
+	margin-left: -5px;
+	margin-right: -5px;
+}
 
 #tableSkills table {
 	margin: 10px;
@@ -192,6 +203,7 @@ footer section {
 }
 
 footer a {
+	padding: 3px;
 	transition: color 0.3s ease;
 	color: white;
 	text-decoration: none;
@@ -201,4 +213,26 @@ footer a {
 
 footer a:hover {
 	color: cornflowerblue;
+}
+
+.hiden {
+	display: none;
+}
+
+#content {
+	width: 0 auto;
+	margin: 0 auto;
+}
+
+/* #content {
+	border: 1px solid black;
+	padding: auto;
+} */
+
+#content section {
+	transition: box-shadow 0.3s ease;
+	background-color: white;
+	margin: 1rem 0;
+	border-radius: 0.5rem;
+	padding: 0.25rem 0;
 }

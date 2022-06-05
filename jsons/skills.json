@@ -38,5 +38,21 @@
 	{
 		"Skill": "Python Flask",
 		"Level": "4"
+	},
+	{
+		"Skill": "HTML",
+		"Level": "5"
+	},
+	{
+		"Skill": "CSS",
+		"Level": "4"
+	},
+	{
+		"Skill": "SQL",
+		"Level": "5"
+	},
+	{
+		"Skill": "MongoDB",
+		"Level": "4"
 	}
 ]

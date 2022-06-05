@@ -1,0 +1,21 @@
+[
+	{
+		"title": "Why VIM is awsome? (NeoVide)",
+		"img": "img/NeoVide.JPG",
+		"content": "I have been using NeoVide for some months now. Neovide is an interactive version base on NeoVim. In my opinion, learning to use VIM is great because it pushes you to code faster without using your mouse. You can also configure it with a lot of custom shortcuts. Make sure to install neovim first",
+		"references": [
+			{
+				"link": "https://dev.to/ritikadas/using-neovim-as-an-effortless-way-to-edit-code-installation-and-setup-guide-for-windows-10-5dhc",
+				"text": "NeoVim Installation guide"
+			},
+			{
+				"link": "https://github.com/neovide/neovide",
+				"text": "NeoVide Github"
+			},
+			{
+				"link": "https://www.youtube.com/watch?v=zkSlgpFpEGw",
+				"text": "NeoVide youtube Video"
+			}
+		]
+	}
+]
