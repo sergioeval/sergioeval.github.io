@@ -52,11 +52,12 @@ header h3 {
 
 .HomeContentDiv {
 	box-shadow: 3px 5px 5px gray;
+	/* margin: 5rem; */
 }
 
 .HomeContentDiv section {
 	background-color: white;
-	margin: 1rem 0;
+	margin: 3rem;
 	border-radius: 0.5rem;
 	padding: 0.25rem 0;
 }
@@ -66,9 +67,10 @@ header h3 {
 }
 
 .HomeContentDiv .column {
-	float: left;
+	/* float: left; */
 	width: auto;
 	padding: 5px;
+	/* margin: 0 3rem; */
 }
 
 .HomeContentDiv .row {
