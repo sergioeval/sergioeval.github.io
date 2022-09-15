@@ -1,187 +1,358 @@
 <!DOCTYPE html>
-<html id="mainDoc" lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/style_v2.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap"
-			rel="stylesheet"
-		/>
-		<script defer type="module" src="js/controller.js"></script>
-		<title>Sergio Estrada</title>
-	</head>
-	<body>
-		<!-- THE HEADER  -->
-		<header>
-			<h1>Sergio Estrada Valenzuela</h1>
-			<h3 id="currentPageName">Home</h3>
-			<section class="menu">
-				<a id="menuHome">Home</a>
-				<a id="menuAboutMe">About Me</a>
-				<a id="menuGithub">GitHub</a>
-				<a id="menuBlog">Blog</a>
-			</section>
-		</header>
-		<!-- THE WEB CONTENT -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/a4f7be854e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 
+<link rel="stylesheet" href="css/lightbox.min.css" />
+    -->
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Welcome To Sergio's Site</title>
+  </head>
+  <body id="home">
+    <header class="hero">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
+          <span class="text-primary">
+            <i class="fa-solid fa-microchip"></i> Sergio's</span
+          >
+          Page
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-		<div id="content" class="mainContainer">
-			<!-- HOME CONTENT START-->
-			<div class="HomeContentDiv hiden" id="homeContent">
-				<section class="row">
-					<div class="column">
-						<img src="img/Sergio.png" alt="IMage" />
-					</div>
+      <div class="content">
+        <h1>Welcome to my Page</h1>
+        <p>Here you can find my professional information and more</p>
+        <a href="#about" class="btn"
+          ><i class="fas fa-chevron-right"></i> Read More</a
+        >
+      </div>
+    </header>
 
-					<div class="column">
-						<hr />
-						<h1>Welcome to my place</h1>
-						<p>
-							This page was made with HTML, CSS and JavaScript just to practice
-							what I have lerned about this technologies (It was not made for
-							mobile phones... yet).
-						</p>
-						<p>Here you will find information about:</p>
-						<ul>
-							<li>My professional career</li>
-							<li>Programming languages</li>
-							<li>Education (Courses, recomendations)</li>
-							<li>Text editors preferences and more</li>
-						</ul>
-					</div>
-				</section>
-			</div>
+    <main>
+      <!-- About -->
+      <section id="about" class="solutions flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="img/hobbies.jpg" alt="" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-primary">
+              <h4>Current Job</h4>
+              <h2>Application Developer at IBM</h2>
+              <p>
+                Currently working in IBM developing different Automation
+                <i class="fa-solid fa-robot"></i> projects using mutiple IBM
+                technologies like IBM Cloudpak for Data and IBM Cloudpak for
+                Business Automation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-			<!-- HOME CONTENT END-->
-			<!-- ABOUT ME START -->
-			<div id="aboutMeContent" class="hiden">
-				<section class="row">
-					<section class="column">
-						<h1 class="skillsTitle">Professional Resume and More</h1>
-						<table class="aboutMeTable">
-							<tr>
-								<td>
-									<h2>Current Job:</h2>
-									<h3>Application and Automation Developer at IBM</h3>
-									<p>
-										Leading the development of automation projects using
-										different technologies to fullfill the Stakeholders needs.
-									</p>
-									<p>
-										I consider myself as a passionate Data Analyst, Python
-										programmer, RPA and App developer.
-									</p>
-									<p>
-										My focus has been in developing and deploying automation
-										solutions using technologies such as Python, JavaScript,
-										BluePrism, IBM RPA (Aka. WDG), DataStage (ETL),
-										Selenium(Python), SQL(DB2, Netezza), NonSQL (Cloudant-
-										MongoDB) and IBM Cloud.
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<h2>Hobies:</h2>
-									<p>
-										I like learning new things specially about programming
-										languages and new technologies.
-									</p>
-									<p>
-										I like spending time with my wife traveling and looking for
-										new places to go.
-									</p>
-								</td>
-							</tr>
-						</table>
-					</section>
-					<section class="column">
-						<h1 class="skillsTitle">Skills</h1>
-						<table id="tableSkills">
-							<thead>
-								<tr>
-									<th>Concept</th>
-									<th>Skill Level (1-5)</th>
-								</tr>
-							</thead>
-							<tbody id="skillsTableBody">
-								<!-- Insert with java script  -->
-							</tbody>
-						</table>
-					</section>
-				</section>
-			</div>
+      <!-- Skills -->
+      <section id="skills" class="cases flex-grid section-padding">
+        <header class="section-header">
+          <h4>This what I have learned so far</h4>
+          <h2>My Technical Skills</h2>
+          <p>
+            In this section you can see my current skill levels. <br />Basic
+            level is equal to 1
+            <i class="fa-solid fa-thumbs-up"></i>.<br />Expert level is equal to
+            5
+            <i class="fa-solid fa-thumbs-up"></i>
+          </p>
+        </header>
+        <div class="row">
+          <div class="column">
+            <table class="skills-table">
+              <thead>
+                <tr>
+                  <td>Skill</td>
+                  <td>Level</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Python</td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>ReactJs</td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>SQL</td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Flask Python</td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Django</td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IBM Cloudpak for Data <br />(Datastage, Watson Studio, DB2,
+                    Dashboards)
+                  </td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IBM Cloudpak for Business Automation <br />(BAW, RPA,
+                    Process Mining)
+                  </td>
+                  <td>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
 
-			<!-- ABOUT ME END -->
-			<!-- GITHUB section start -->
+      <!-- Projects -->
+      <section id="blog" class="blog flex-columns flex-reverse">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="img/projects.jpg" alt="" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-secondary">
+              <h4></h4>
+              <h2>Projects</h2>
+              <p>Here I will post some of my projects and gist.</p>
+              <table class="skills-table">
+                <thead>
+                  <tr>
+                    <td>Project/Gist Name</td>
+                    <td>Link</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Test gist prject</td>
+                    <td>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                      <i class="fa-solid fa-thumbs-up"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
 
-			<section id="githubContent" class="hiden">
-				<div class="row">
-					<div class="column">
-						<h1 class="skillsTitle">Gists and Projects</h1>
-						<table id="tablePortfolio">
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Programming language</th>
-									<th>Description</th>
-									<th>Link</th>
-								</tr>
-							</thead>
-							<tbody id="githubContentBody">
-								<!-- insert with java script -->
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</section>
-			<!-- GITHUB section ends -->
+      <!-- Team -->
+      <section id="team" class="team section-padding">
+        <header class="section-header">
+          <h4>Who we are</h4>
+          <h2>Our Professional Team</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+            dolore!
+          </p>
+        </header>
+        <div class="flex-items">
+          <div>
+            <img src="images/team/person1.jpg" alt="" />
+            <h4>John Doe</h4>
+            <p>President</p>
+          </div>
+          <div>
+            <img src="images/team/person2.jpg" alt="" />
+            <h4>Jane Doe</h4>
+            <p>Vice President</p>
+          </div>
+          <div>
+            <img src="images/team/person3.jpg" alt="" />
+            <h4>Steve Smith</h4>
+            <p>Marketing Head</p>
+          </div>
+        </div>
+      </section>
 
-			<!-- BLOG START -->
-			<section id="blog" class="postContainer hiden">
-				<!-- <article>
-					<h1>Why VIM is awsome? (NeoVide)</h1>
-					<img src="img/vim1.JPG" alt="imagenHere" />
-					<img src="img/NeoVide.JPG" alt="" />
-					<p>
-						I have been using NeoVide for some months now. Neovide is an
-						interactive version base on NeoVim. In my opinion, learning to use
-						VIM is great because it pushes you to code faster without using your
-						mouse. You can also configure it with a lot of custom shortcuts.
-						Make sure to install neovim first
-					</p>
-					<p>
-						Here you can find information about how to install and use Neovide:
-						<br />
-						<a
-							href="https://dev.to/ritikadas/using-neovim-as-an-effortless-way-to-edit-code-installation-and-setup-guide-for-windows-10-5dhc"
-							>NeoVim Installation guide</a
-						>
-						<br /><a href="https://github.com/neovide/neovide" target="blank"
-							>NeoVide Github</a
-						>
-						<br />
-						<a href="https://www.youtube.com/watch?v=zkSlgpFpEGw" target="blank"
-							>NeoVide youtube Video</a
-						>
-					</p>
-				</article> -->
-			</section>
-			<!-- BLOG ENDS -->
-		</div>
-		<!-- THE FOOTER -->
-		<footer>
-			<section>
-				<a
-					target="blank"
-					href="https://www.linkedin.com/in/sergio-estrada-valenzuela-7451a415/"
-					>Linkedin</a
-				>
-				<!-- <a href="mailto:sergioev@gmail.com">Contact me</a> -->
-			</section>
-		</footer>
-	</body>
+      <!-- Contact -->
+      <section id="contact" class="contact flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="images/home/contact.jpg" alt="" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-light">
+              <h2>Request Callback</h2>
+              <form action="" class="callback-form">
+                <div class="form-control">
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter name"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email"></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="phone"></label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter phone"
+                  />
+                </div>
+                <input type="submit" value="Send" id="submit" class="btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2020 - EdgeLedger</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+      const navbar = document.getElementById("navbar");
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+          if (!scrolled) {
+            navbar.style.transform = "translateY(-70px)";
+          }
+          setTimeout(function () {
+            navbar.style.transform = "translateY(0)";
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add("top");
+          scrolled = false;
+        }
+      };
+
+      // Smooth Scrolling
+      $("#navbar a, .btn").on("click", function (e) {
+        if (this.hash !== "") {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+  </body>
 </html>
