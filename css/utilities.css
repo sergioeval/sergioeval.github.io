@@ -31,9 +31,11 @@
   background: #aea49a;
   color: #fff;
 }
+
+/*#4D9CA9#0284d0*/
 .btn-secondary,
 .bg-secondary {
-  background: #0284d0;
+  background: #4d9ca9;
   color: #fff;
 }
 .btn-dark,
