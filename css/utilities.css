@@ -38,6 +38,12 @@
   background: #4d9ca9;
   color: #fff;
 }
+
+.bg-middle {
+  background: #8fbc8f;
+  color: #333;
+}
+
 .btn-dark,
 .bg-dark {
   background: #333;
